@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 29,
+    "width": 1920,
+    "height": 2560,
+    "isRotated": true,
+    "originalWidth": 1978,
+    "originalHeight": 2560
+  },
+  "imagePath": "image-targets/MADRID_luminance.png",
+  "metadata": null,
+  "name": "MADRID",
+  "resources": {
+    "originalImage": "MADRID_original.png",
+    "croppedImage": "MADRID_cropped.png",
+    "thumbnailImage": "MADRID_thumbnail.png",
+    "luminanceImage": "MADRID_luminance.png"
+  },
+  "created": 1795651190687,
+  "updated": 1795651190687
+}

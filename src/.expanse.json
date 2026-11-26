@@ -1,0 +1,380 @@
+{
+  "objects": {
+    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
+      "components": {},
+      "geometry": null,
+      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 0.4038940050501252
+    },
+    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "material": null,
+      "name": "Camera",
+      "position": [
+        0,
+        2,
+        3
+      ],
+      "rotation": [
+        0.0004436887233141012,
+        0.9659425615285845,
+        -0.25875089860082223,
+        0.0016563336561801576
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 1.0308214152219775
+    },
+    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
+      "components": {},
+      "geometry": null,
+      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
+      "light": {
+        "intensity": 1,
+        "type": "directional"
+      },
+      "material": null,
+      "name": "Directional Light",
+      "position": [
+        20,
+        50,
+        10
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "order": 0.6644431107322474
+    },
+    "0bec4c94-3e0d-4cc7-b323-b4dd12f89f5b": {
+      "id": "0bec4c94-3e0d-4cc7-b323-b4dd12f89f5b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "BURGOS",
+      "imageTarget": {
+        "name": "BURGOS"
+      },
+      "order": 2.8674227579685017,
+      "hidden": false
+    },
+    "7cf950a5-36f4-420d-807e-80c600db8353": {
+      "id": "7cf950a5-36f4-420d-807e-80c600db8353",
+      "position": [
+        0,
+        0.4534207467253691,
+        0.14672530413706203
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.6000000000000001,
+        0.6000000319274892,
+        0.6000000319274892
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/BURGOS.mp4"
+        },
+        "metalness": 0,
+        "roughness": 1
+      },
+      "parentId": "0bec4c94-3e0d-4cc7-b323-b4dd12f89f5b",
+      "components": {},
+      "name": "V_BURGOS",
+      "order": 1.2795200841135606,
+      "videoControls": {
+        "loop": true
+      }
+    },
+    "ce546909-7f55-47a1-8249-6ab49fd50bb4": {
+      "id": "ce546909-7f55-47a1-8249-6ab49fd50bb4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "MADRID",
+      "imageTarget": {
+        "name": "MADRID"
+      },
+      "order": 3.9850589652366697
+    },
+    "a9535946-dd89-4af5-bbc3-4a9060f8619d": {
+      "id": "a9535946-dd89-4af5-bbc3-4a9060f8619d",
+      "position": [
+        0,
+        0.4534207467253691,
+        0.14672530413706203
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.6000000000000001,
+        0.6000000319274892,
+        0.6000000319274892
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/MADRID.mp4"
+        },
+        "metalness": 0,
+        "roughness": 1
+      },
+      "parentId": "ce546909-7f55-47a1-8249-6ab49fd50bb4",
+      "components": {},
+      "name": "V_MADRID",
+      "order": 1.2795200841135606,
+      "videoControls": {
+        "loop": true
+      }
+    },
+    "f17e669a-c7e3-4c2d-b1c6-3dfd52c40845": {
+      "id": "f17e669a-c7e3-4c2d-b1c6-3dfd52c40845",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "TOLEDO",
+      "imageTarget": {
+        "name": "TOLEDO"
+      },
+      "order": 5.310778219158992
+    },
+    "1001a3a3-76e9-4df1-8969-4955b005402d": {
+      "id": "1001a3a3-76e9-4df1-8969-4955b005402d",
+      "position": [
+        0,
+        0.4534207467253691,
+        0.14672530413706203
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.6000000000000001,
+        0.6000000319274892,
+        0.6000000319274892
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/TOLEDO.mp4"
+        },
+        "metalness": 0,
+        "roughness": 1
+      },
+      "parentId": "f17e669a-c7e3-4c2d-b1c6-3dfd52c40845",
+      "components": {},
+      "name": "V_TOLEDO",
+      "order": 1.2795200841135606,
+      "videoControls": {
+        "loop": true
+      }
+    },
+    "648fc382-3cdb-46ff-8373-808c7309017b": {
+      "id": "648fc382-3cdb-46ff-8373-808c7309017b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "CORDOBA",
+      "imageTarget": {
+        "name": "CORDOBA"
+      },
+      "order": 6.7199961215846145
+    },
+    "73d64ff2-f0a8-407e-ab77-5de384faa085": {
+      "id": "73d64ff2-f0a8-407e-ab77-5de384faa085",
+      "position": [
+        0,
+        0.4534207467253691,
+        0.14672530413706203
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.6000000000000001,
+        0.6000000319274892,
+        0.6000000319274892
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/CORDOBA.mp4"
+        },
+        "metalness": 0,
+        "roughness": 1
+      },
+      "parentId": "648fc382-3cdb-46ff-8373-808c7309017b",
+      "components": {},
+      "name": "V_CORDOBA",
+      "order": 1.2795200841135606,
+      "videoControls": {
+        "loop": true
+      }
+    }
+  },
+  "spaces": {
+    "88453035-dc0f-486d-868a-8ff7c2fda864": {
+      "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "name": "Default Space",
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+    }
+  },
+  "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864"
+}

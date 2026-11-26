@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 29,
+    "width": 1920,
+    "height": 2560,
+    "isRotated": false,
+    "originalWidth": 1978,
+    "originalHeight": 2560
+  },
+  "imagePath": "image-targets/CORDOBA_luminance.png",
+  "metadata": null,
+  "name": "CORDOBA",
+  "resources": {
+    "originalImage": "CORDOBA_original.png",
+    "croppedImage": "CORDOBA_cropped.png",
+    "thumbnailImage": "CORDOBA_thumbnail.png",
+    "luminanceImage": "CORDOBA_luminance.png"
+  },
+  "created": 1795651351001,
+  "updated": 1795651351001
+}

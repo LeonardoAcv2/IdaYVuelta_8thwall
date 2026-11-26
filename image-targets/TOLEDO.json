@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 29,
+    "width": 1920,
+    "height": 2560,
+    "isRotated": true,
+    "originalWidth": 1978,
+    "originalHeight": 2560
+  },
+  "imagePath": "image-targets/TOLEDO_luminance.png",
+  "metadata": null,
+  "name": "TOLEDO",
+  "resources": {
+    "originalImage": "TOLEDO_original.png",
+    "croppedImage": "TOLEDO_cropped.png",
+    "thumbnailImage": "TOLEDO_thumbnail.png",
+    "luminanceImage": "TOLEDO_luminance.png"
+  },
+  "created": 1795651310064,
+  "updated": 1795651310064
+}

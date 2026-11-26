@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 29,
+    "width": 1920,
+    "height": 2560,
+    "isRotated": false,
+    "originalWidth": 1978,
+    "originalHeight": 2560
+  },
+  "imagePath": "image-targets/BURGOS_luminance.png",
+  "metadata": null,
+  "name": "BURGOS",
+  "resources": {
+    "originalImage": "BURGOS_original.png",
+    "croppedImage": "BURGOS_cropped.png",
+    "thumbnailImage": "BURGOS_thumbnail.png",
+    "luminanceImage": "BURGOS_luminance.png"
+  },
+  "created": 1795650680617,
+  "updated": 1795650680617
+}
