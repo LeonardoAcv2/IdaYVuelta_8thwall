@@ -159,7 +159,8 @@
       "order": 1.2795200841135606,
       "videoControls": {
         "loop": true
-      }
+      },
+      "hidden": false
     },
     "ce546909-7f55-47a1-8249-6ab49fd50bb4": {
       "id": "ce546909-7f55-47a1-8249-6ab49fd50bb4",
@@ -187,7 +188,8 @@
       "imageTarget": {
         "name": "MADRID"
       },
-      "order": 3.9850589652366697
+      "order": 3.9850589652366697,
+      "hidden": false
     },
     "a9535946-dd89-4af5-bbc3-4a9060f8619d": {
       "id": "a9535946-dd89-4af5-bbc3-4a9060f8619d",
@@ -256,7 +258,8 @@
       "imageTarget": {
         "name": "TOLEDO"
       },
-      "order": 5.310778219158992
+      "order": 5.310778219158992,
+      "hidden": false
     },
     "1001a3a3-76e9-4df1-8969-4955b005402d": {
       "id": "1001a3a3-76e9-4df1-8969-4955b005402d",
@@ -325,7 +328,8 @@
       "imageTarget": {
         "name": "CORDOBA"
       },
-      "order": 6.7199961215846145
+      "order": 6.7199961215846145,
+      "hidden": false
     },
     "73d64ff2-f0a8-407e-ab77-5de384faa085": {
       "id": "73d64ff2-f0a8-407e-ab77-5de384faa085",
@@ -367,6 +371,37 @@
       "videoControls": {
         "loop": true
       }
+    },
+    "fc92362d-fd2f-4a1f-89ca-5c1b74023421": {
+      "id": "fc92362d-fd2f-4a1f-89ca-5c1b74023421",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "720bafa9-940b-4906-81cf-62838ea2f58a": {
+          "id": "720bafa9-940b-4906-81cf-62838ea2f58a",
+          "name": "mitad-inferior-ui",
+          "parameters": {}
+        }
+      },
+      "name": "Objeto vacío",
+      "order": 8.701864329172832
     }
   },
   "spaces": {
