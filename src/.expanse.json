@@ -335,7 +335,7 @@
       "id": "73d64ff2-f0a8-407e-ab77-5de384faa085",
       "position": [
         0,
-        0.4534207467253691,
+        0.9179403011085043,
         0.14672530413706203
       ],
       "rotation": [
@@ -345,9 +345,9 @@
         1
       ],
       "scale": [
-        0.6000000000000001,
-        0.6000000319274892,
-        0.6000000319274892
+        1.6,
+        1.6000000851399714,
+        1.6000000851399714
       ],
       "geometry": {
         "type": "plane",
@@ -394,14 +394,65 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {
-        "720bafa9-940b-4906-81cf-62838ea2f58a": {
-          "id": "720bafa9-940b-4906-81cf-62838ea2f58a",
-          "name": "mitad-inferior-ui",
+        "1f5514ab-d040-4bf0-8bdf-e16b57ffcded": {
+          "id": "1f5514ab-d040-4bf0-8bdf-e16b57ffcded",
+          "name": "ui-slide-in",
           "parameters": {}
         }
       },
-      "name": "Objeto vacío",
-      "order": 8.701864329172832
+      "name": "CARTA_OBJ",
+      "order": 10.8260928880754
+    },
+    "7b0e4075-ac0f-4ad4-aedf-668920946bc5": {
+      "id": "7b0e4075-ac0f-4ad4-aedf-668920946bc5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "5a1a2fda-58cc-4720-bedb-64aa17f131f9": {
+          "id": "5a1a2fda-58cc-4720-bedb-64aa17f131f9",
+          "name": "txt-slide-in",
+          "parameters": {
+            "textEntity": {
+              "type": "entity",
+              "id": "7b0e4075-ac0f-4ad4-aedf-668920946bc5"
+            }
+          }
+        }
+      },
+      "ui": {
+        "width": 188,
+        "height": 130,
+        "text": "“Toledo muy pintoresco, Córdoba algo triste.” “La Catedral de Córdoba sigue siendo mezquita entre sus pilastras de mármol verde y rosa en el patio de los naranjos se pasean como intrusos los frailes” ",
+        "color": "#141414",
+        "fontSize": 15,
+        "type": "3d",
+        "textAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Baskerville"
+        },
+        "verticalTextAlign": "start",
+        "stackingOrder": 0
+      },
+      "name": "TXT_CORDOBA",
+      "order": 14.885724956963736
     }
   },
   "spaces": {
